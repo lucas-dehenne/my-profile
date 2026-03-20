@@ -1,0 +1,120 @@
+/* Colors and Fonts */
+
+body {
+	background: rgb(167, 167,167);
+	color: rgb(6, 30, 41);
+	font-family: 'Noto', serif;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans serif;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(6, 30, 41);
+	font-size: 32px;
+	font-weight: bolder;
+}
+
+h2 {
+	color: rgb(29, 84, 109);
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+a {
+	text-decoration: none;
+	color: #6B72E1;
+}
+
+a:hover{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Custom Design with Class */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+.cart-white {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  padding: 40px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #1f2937;
+}
+
+.img-circle {
+  width: 200px;
+  height: auto;
+  border-radius: 50%
+}
+
+.link-btn {
+  color: white;
+  background-color: black;
+  padding: 20px 60px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  width: 200px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.link-btn:hover {
+  background-color: grey;
+  color: white
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: black;
+}
+
+.list-inline i:hover {
+	font-size: 52px;
+	color: grey;
+}
+
+
+@media (max-width: 500px) {
+. container {
+width: 400px;
+}
+
+@media (max-width: 76 0px) {
+. container {
+width: 600px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+
+}
